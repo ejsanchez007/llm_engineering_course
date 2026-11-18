@@ -1,9 +1,5 @@
 import os
-import sys
-from pathlib import Path
 from dotenv import load_dotenv
-
-# Make week1/ importable so scraper.py (two levels up) can be found
 from scraper import fetch_website_contents
 from IPython.display import Markdown, display
 from openai import OpenAI
