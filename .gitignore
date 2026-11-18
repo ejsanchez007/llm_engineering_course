@@ -217,3 +217,4 @@ week8/*.pth
 # Editor swap files, which can hold a copy of .env
 *.swp
 *.swo
+.vscode/settings.json
